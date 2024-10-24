@@ -1,0 +1,95 @@
+h1{
+    font-size: 5rem;
+    color: #FCFAEE;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.winner-class{
+    font-size: 3rem;
+    color: #d8ff9a;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 1.5rem;
+    color: #FCFAEE;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #384B70;
+    zoom: 125%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.dice-container{
+    background-color: #507687 ;
+    min-width: 300px;
+    min-height: 500px;
+    display: grid;
+    justify-content: center;
+}
+
+.button-container{
+    display: grid;
+    align-items: end;
+    justify-content: center;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #B8001F;
+    color: #FCFAEE;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #a0001b; /* Green */
+    color: white;
+}
+
+.player-names-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-pressed{
+    transition: transform 0.5s ease-in-out;
+}
+
+.active{
+    display: none;
+}
+
+#footer-grid
+{
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+.p-footer{
+    font-size: 1.2rem;
+    color:#FCFAEE; ;
+}
+a{
+    color: #a0001b;;
+}
